@@ -27,7 +27,14 @@ opencv_traincascade -data classifier -vec samples.vec -bg negatives.txt -numStag
           
 
 Notes:
-1.Install OpenCV & get OpenCV source
+1.Install OpenCV & get OpenCV source in ubuntu
+a.Download opencv-2.4.6.1 from http://sourceforge.net/projects/opencvlibrary/ and extract files in your desired installation directory
+b.Follow the commands below
+ mkdir build
+ cd build
+ make
+ sudo make install
+ 
 
 2.How compile mergevec.cpp
 cp src/mergevec.cpp ~/opencv-2.4.6.1/apps/haartraining
