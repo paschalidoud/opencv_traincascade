@@ -2,11 +2,11 @@ opencv_traincascade
 ===================
 1.Create a list of positive images:
 
-find Positive_Images -iname "*.jpg" > positives.txt
+find data/Positive_Images -iname "*.jpg" > positives.txt
 
 2. Create a list of negative images:
 
-find Negative_Images -iname "*.jpg" > negatives.txt 
+find data/Negative_Images -iname "*.jpg" > negatives.txt 
 
                                           ***Create samples first way***
 3. Create positive samples with the `bin/createsamples.pl` script and save them to the `./samples` folder:
