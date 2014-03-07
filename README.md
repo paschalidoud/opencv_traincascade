@@ -1,6 +1,9 @@
-opencv_traincascade
-===================
-1.Create a list of positive images:
+	Opencv Traincascade
+	===================
+
+	**Follow the instructions bellow**
+
+1. Create a list of positive images:
 
 find data/Positive_Images -iname "*.jpg" > positives.txt
 
